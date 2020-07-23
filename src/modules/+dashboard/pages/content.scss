@@ -1,0 +1,45 @@
+.context-container {
+    width: 100%;
+    padding: 5%;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    & > div {
+        max-width: 30%;
+        flex: 1 1 30%;
+        margin: 1.2%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 220px;
+        
+        & img {
+            // height: 100%;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        & > h5 {
+            width: 100%;
+            text-align: center;
+            background-color: #282828;
+            padding: 20px;
+
+            font-size: 1.2vw;
+            color: white;
+            
+
+
+            a {
+            }
+        }
+    }
+}

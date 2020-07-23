@@ -1,0 +1,14 @@
+.loading-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 10036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padded-wrapper {
+    padding-left: 8%;
+    padding-right: 8%;
+}
