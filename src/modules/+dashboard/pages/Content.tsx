@@ -1,4 +1,4 @@
-import { IBreadcrumbProps } from '@blueprintjs/core';
+import { IBreadcrumbProps, Breadcrumb } from '@blueprintjs/core';
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
@@ -32,7 +32,7 @@ export default function Content() {
     const BREADCRUMBS: IBreadcrumbProps[] = [
         { onClick: () => handleClick(), icon: "folder-close", text: 'Equipment Catalog' },
         { icon: "folder-close", text: currentPosition.cat }
-    ];
+    ]; 
 
     const handleClick = (category?: string, cat?: TCatalogCategory) => {
 
