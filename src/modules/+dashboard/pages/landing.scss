@@ -3,5 +3,9 @@ section.main {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
+
+    .bp3-input-group {
+        width: 50%;
+        margin-bottom: 4%;
+    }
 }

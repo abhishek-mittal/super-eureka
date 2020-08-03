@@ -1,22 +1,30 @@
-import { H1, H2, H3 } from '@blueprintjs/core';
+import { H1, H2, H3, InputGroup } from '@blueprintjs/core';
 import React from 'react';
 import './landing.scss';
+import Iframe from 'react-iframe'
+
 
 declare var TogetherJS: any;
 
 export default function Landing() {
 
-    const activateTogether = function() {
-        TogetherJS(); 
+    const activateTogether = function () {
+        TogetherJS();
         return false;
     }
 
     return (
         <div>
             <section className="main">
-                <H1>WELCOME TO</H1>
-                <H2>RENTAL MANAGEMENT SYSTEM</H2>
-                <H3>Please select Location</H3>
+                <H1>WELCOME TO Aomilo</H1>
+                <InputGroup id="framer" placeholder="add url" />
+                <Iframe url="http://www.youtube.com/embed/xDMP3i36naA"
+                    width="800px"
+                    height="600vh"
+                    id="myId"
+                    className="myClassname"
+                    display="inline"
+                    position="relative" />
 
                 <button onClick={(e) => activateTogether()}>Start TogetherJS</button>
             </section>
