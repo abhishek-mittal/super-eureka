@@ -39,7 +39,7 @@
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
     "postinstall": "tsc",
-    "serve": "serve -s build"
+    "serve": "serve -C -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
