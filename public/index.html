@@ -25,10 +25,27 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://unpkg.com/normalize.css@^4.1.1" rel="stylesheet" />
     <link href="https://unpkg.com/@blueprintjs/core@^1.11.0/dist/blueprint.css" rel="stylesheet" />
     <link href="https://unpkg.com/@blueprintjs/icons@^3.4.0/lib/css/blueprint-icons.css" rel="stylesheet" />
         <link href="https://unpkg.com/@blueprintjs/core@^3.10.0/lib/css/blueprint.css" rel="stylesheet" />
+        <script>
+          // TogetherJS configuration would go here, but we'll talk about that
+          // later
+          
+        var TogetherJSConfig_autoStart = false;
+        var TogetherJSConfig_suppressJoinConfirmation = true;
+        var TogetherJSConfig_dontShowClicks = true;
+        var TogetherJSConfig_youtube = true;
+        var TogetherJSConfig_toolName = 'Collaboration';
+          var TogetherJSConfig_disableWebRTC = false;
+          TogetherJSConfig_hubBase = "https://ebony-best-parent.glitch.me";
+//           TogetherJSConfig_on = {
+//   ready: function () {alert('en')}
+// };
+        </script>
+        <script src="https://togetherjs.com/togetherjs-min.js"></script>
     
   </head>
   <body>
@@ -44,11 +61,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-
-    <script>
-      // TogetherJS configuration would go here, but we'll talk about that
-      // later
-    </script>
-    <script src="https://togetherjs.com/togetherjs-min.js"></script>
   </body>
 </html>

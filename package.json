@@ -30,7 +30,9 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "serve": "^11.3.2",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "websocket": "^1.0.31",
+    "websocket-server": "github:miksago/node-websocket-server#master"
   },
   "scripts": {
     "start": "npm run serve",
